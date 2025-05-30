@@ -1,0 +1,11 @@
+[Oo]bj/
+Binaries/
+Intermediate/
+.idea/
+.code/
+!ws/
+ws/*
+!ws/README.md
+
+*.DotSettings.user
+*.csproj.props
