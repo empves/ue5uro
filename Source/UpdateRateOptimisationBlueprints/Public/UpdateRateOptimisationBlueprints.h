@@ -4,6 +4,8 @@
 
 #include "Modules/ModuleManager.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(LogUro, All, All);
+
 class FUpdateRateOptimisationBlueprintsModule : public IModuleInterface
 {
 public:

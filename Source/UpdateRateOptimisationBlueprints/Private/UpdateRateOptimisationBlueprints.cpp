@@ -4,6 +4,8 @@
 
 #define LOCTEXT_NAMESPACE "FUpdateRateOptimisationBlueprintsModule"
 
+DEFINE_LOG_CATEGORY(LogUro);
+
 void FUpdateRateOptimisationBlueprintsModule::StartupModule()
 {
 }
