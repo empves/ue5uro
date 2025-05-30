@@ -23,8 +23,9 @@ void UUroFunctionLibrary::DumpURO(const AActor* Subject)
 		UE_LOG(
 			LogUro,
 			Log,
-			TEXT("%s: uro(%d), MaxDistanceFactor(%f), rate(%d)"),
+			TEXT("%s: tick(%d), uro(%d), MaxDistanceFactor(%f), rate(%d)"),
 			*SkeletalMeshComponent->GetName(),
+			SkeletalMeshComponent->IsComponentTickEnabled(),
 			SkeletalMeshComponent->bEnableUpdateRateOptimizations,
 			SkeletalMeshComponent->MaxDistanceFactor,
 			SkeletalMeshComponent->AnimUpdateRateParams->UpdateRate
