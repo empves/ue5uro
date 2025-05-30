@@ -219,7 +219,7 @@ TArray<int32> UUpdateRateOptimisationBlueprintsBPLibrary::GetLODToFrameSkipArray
 
 		if (Index >= LODToFrameSkipArray.Num())
 		{
-			LODToFrameSkipArray.SetNum(Index + 1, false);
+			LODToFrameSkipArray.SetNum(Index + 1, EAllowShrinking::No);
 		}
 
 		LODToFrameSkipArray[Index] = Value;
